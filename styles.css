@@ -11,3 +11,27 @@
 .pizza{
     width: 300px;
 }
+
+.photo{
+    width: 200px;
+}
+
+
+.photos{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+
+}
+
+h2{
+    text-align: center;
+}
+
+.im{
+    max-width: 200px;
+}
+
+.footer{
+    text-align: center;
+}
