@@ -7,28 +7,31 @@
 .header{
     background-color: #1F2937;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.header-1{
-    display: flex;
-    justify-content: space-between;
-    width: 1600px;
-}
+/* .header-1{ */
+   /* display: flex;  */
+   /* justify-content: space-around; */
+/* width: 1600px; */
+/* } */
 .logo{
-    width: 115px;
+    width: 70px;
 }
 
 .links{
     display: flex;
     gap: 25px;
-    font-size: 40px;
+    font-size: 25px;
     align-items: center;
     color: #E5E7EB;
 }
 .first-block{
     background-color: #1F2937;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 h1{
@@ -40,6 +43,7 @@ h1{
 .first-text{
     font-size: 24px;
     color: #F9FAF8;
+    width:500px
 }
 
 .pizza{
@@ -64,6 +68,15 @@ h2{
 
 .im{
     max-width: 200px;
+}
+
+.sign{
+    font-size: 30px;
+    color: white;
+    background-color: #3882f6;
+    text-align: center;
+    border-radius: 12px;
+    padding: 10px;
 }
 
 .footer{
