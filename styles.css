@@ -1,11 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .header{
-    background-color: blueviolet;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.header-1{
+    display: flex;
+    justify-content: space-between;
+    width: 1600px;
+}
+.logo{
+    width: 115px;
+}
+
+.links{
+    display: flex;
+    gap: 25px;
+    font-size: 40px;
+    align-items: center;
+    color: #E5E7EB;
+}
+.first-block{
+    background-color: #1F2937;
     display: flex;
 }
 
-.first-block{
-    background-color: blueviolet;
-    display: flex;
+h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.first-text{
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .pizza{
@@ -33,5 +67,13 @@ h2{
 }
 
 .footer{
+    text-align: center;
+}
+
+.quote{
+    font-size: 36px;
+    font-family: light italic;
+    color: #1F2937;
+    width: 500px;
     text-align: center;
 }
