@@ -7,26 +7,30 @@
 .header{
     background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
-/* .header-1{ */
-   /* display: flex;  */
-   /* justify-content: space-around; */
-/* width: 1600px; */
-/* } */
+.header-1{
+   display: flex; 
+   justify-content: space-between;
+   width: 1350px;
+}
 .logo{
     width: 70px;
+    display: flex;
+    justify-content: flex-start;
+
 }
 
-.links{
+.right-info{
     display: flex;
-    gap: 25px;
     font-size: 25px;
-    align-items: center;
     color: #E5E7EB;
+    gap: 25px;
+    align-items: center;
 }
+
 .first-block{
     background-color: #1F2937;
     display: flex;
