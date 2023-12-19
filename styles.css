@@ -49,31 +49,6 @@ h1{
     color: #F9FAF8;
     width:500px
 }
-
-.pizza{
-    width: 300px;
-}
-
-.photo{
-    width: 200px;
-}
-
-
-.photos{
-    display: flex;
-    justify-content: center;
-    gap: 250px;
-
-}
-
-h2{
-    text-align: center;
-}
-
-.im{
-    max-width: 200px;
-}
-
 .sign{
     font-size: 30px;
     color: white;
@@ -83,14 +58,69 @@ h2{
     padding: 10px;
 }
 
-.footer{
+.pizza{
+    width: 300px;
+}
+
+.second-block{
+padding-top: 15px;
+padding-bottom: 30px;
+}
+
+h2{
     text-align: center;
+    font-size: 36px;
+    font-weight: 800px ;
+}
+.photo{
+    width: 135px;
+}
+
+
+.photos{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+}
+
+.text{
+font-size: 15px;
+text-align: center;
+}   
+
+.im{
+    max-width: 150px;
+}
+
+.third-block{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
 }
 
 .quote{
     font-size: 36px;
     font-family: light italic;
     color: #1F2937;
-    width: 500px;
+    width: 700px;
+    text-align: justify;
+}
+.author{
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fourth-block{
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    gap:30px
+}
+
+.footer{
     text-align: center;
 }
